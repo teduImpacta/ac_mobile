@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831287691000",
+    "project_id": "acmobile-1a7e2",
+    "storage_bucket": "acmobile-1a7e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831287691000:android:5d53aef339687575b65d0d",
+        "android_client_info": {
+          "package_name": "com.example.vidgi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831287691000-arme5umnfbf22c5ah9i3do7i9e7660l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOyKgEutnnxi-Cl1hgSL34OHLZiY3x0i0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831287691000-arme5umnfbf22c5ah9i3do7i9e7660l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

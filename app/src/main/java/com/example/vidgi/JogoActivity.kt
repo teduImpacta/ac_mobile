@@ -25,6 +25,9 @@ class JogoActivity : AppCompatActivity() {
 
         jogo = intent.getSerializableExtra("game") as Jogo
 
+        supportActionBar?.title = jogo?.nome
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         binding.gameName.setText(jogo?.nome)
 
         Picasso.with(context).load(jogo?.url).fit().into(binding.gameImage,

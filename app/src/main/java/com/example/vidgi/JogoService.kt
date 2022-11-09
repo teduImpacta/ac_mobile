@@ -7,13 +7,14 @@ import okhttp3.Response
 import okhttp3.ResponseBody
 
 object JogoService {
-    val host = "http://tedu.pythonanywhere.com/"
+    val host = "https://tedu.pythonanywhere.com"
 
     fun getJogos(): List<Jogo> {
         var games = ArrayList<Jogo>()
 
         if (AndroidUtils.isInternetDisponivel()) {
             val url = "$host/games"
+
             val json = HttpHelper.get(url)
             games = parserJson(json)
 
